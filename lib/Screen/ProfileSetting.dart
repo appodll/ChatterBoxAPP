@@ -28,7 +28,7 @@ class _ProfilSettingsState extends State<ProfilSettings> {
         //await launchUrl(uri, mode: LaunchMode.externalApplication);
       //}
     //}catch(e){
-      /print(e.toString());
+      //print(e.toString());
     //}
   //}
   @override
