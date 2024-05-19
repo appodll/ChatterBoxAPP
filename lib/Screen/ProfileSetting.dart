@@ -20,17 +20,17 @@ class ProfilSettings extends StatefulWidget {
 }
 
 class _ProfilSettingsState extends State<ProfilSettings> {
-  void launcURL(Uri uri, bool inApp)async{
-    try{
-      if(await canLaunchUrl(uri)){
-        await launchUrl(uri, mode: LaunchMode.inAppWebView);
-      }else{
-        await launchUrl(uri, mode: LaunchMode.externalApplication);
-      }
-    }catch(e){
-      print(e.toString());
-    }
-  }
+  //void launcURL(Uri uri, bool inApp)async{
+    //try{
+      //if(await canLaunchUrl(uri)){
+       // await launchUrl(uri, mode: LaunchMode.inAppWebView);
+      //}else{
+        //await launchUrl(uri, mode: LaunchMode.externalApplication);
+      //}
+    //}catch(e){
+      /print(e.toString());
+    //}
+  //}
   @override
   void initState() {
     super.initState();
